@@ -191,9 +191,14 @@ header ul li a:hover{
 
 .boxDoCalabreso {
     background-color: red;
-    width: 23%;
+    width: 25%;
     height: 80%;
-    position: relative; 
+    position: relative;
+    transition: 1s;
+}
+
+.boxDoCalabreso:hover {
+    width: 35%;
 }
 
 .fazerCaber {
